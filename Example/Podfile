@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ValueTypeRepresentable_Tests' do
+  pod 'ValueTypeRepresentable', :path => '../'
+  
+  
+end

@@ -1,0 +1,6 @@
+framework module ValueTypeRepresentable {
+  umbrella header "ValueTypeRepresentable-umbrella.h"
+
+  export *
+  module * { export * }
+}

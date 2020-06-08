@@ -1,0 +1,16 @@
+PODS:
+  - ValueTypeRepresentable (0.1.0)
+
+DEPENDENCIES:
+  - ValueTypeRepresentable (from `../`)
+
+EXTERNAL SOURCES:
+  ValueTypeRepresentable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ValueTypeRepresentable: ca800e8a4452cff8e1c605fa6a6aa8c1833fce64
+
+PODFILE CHECKSUM: 996ea011732836b03ed4b578daaf31d7d8b8850d
+
+COCOAPODS: 1.9.3
