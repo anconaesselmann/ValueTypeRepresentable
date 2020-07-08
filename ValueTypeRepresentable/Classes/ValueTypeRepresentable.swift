@@ -76,3 +76,18 @@ extension Bool: BoolRepresentable {
         return self
     }
 }
+
+public protocol UuidRepresentable {
+    var uuidValue: UUID { get }
+    init?(_ uuidValue: UUID)
+}
+
+extension UUID: UuidRepresentable {
+    public init?(_ uuidValue: UUID) {
+        self = uuidValue
+    }
+    
+    public var uuidValue: UUID {
+        return self
+    }
+}
